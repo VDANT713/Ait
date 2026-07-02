@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AIT India - Projects">
+    <title>Projects - AIT India</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=4">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">AIT India</a></div>
+
+        <a href="index.html" class="btn btn-primary">Home Page</a>
+    </nav>
+
+    <!-- Streaming UI Hero Section -->
+    <section class="projects-hero">
+        <div class="projects-hero-bg">
+            <video src="./assets/batman_hero.mp4" autoplay loop muted playsinline></video>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="projects-hero-content container">
+            <h1 class="hero-title">AIT India</h1>
+            <p class="hero-rating"><span style="color: var(--primary);">Artists In Transit</span></p>
+            <p class="genre-text">ABOUT AIT INDIA YOUTUBE</p>
+            <p class="hero-desc">
+                AIT India brings real conversations from the people who build the industry from the ground up DOPs, Art Directors, Creative Producers, Writers, Filmmakers, and Artists across every domain.<br><br>
+                Through honest podcast episodes, industry experts share the knowledge, struggles, workflows, and realities students rarely get to see.
+            </p>
+            <div class="hero-buttons">
+                <a href="https://youtu.be/lCVN9nztPG8" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="padding: 0.875rem 4rem;">Watch Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations / Videos Section -->
+    <section class="content-section container" style="position: relative; z-index: 2;">
+        <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">Recommendations</h2>
+        <div class="slider-container" id="recommendations-container" style="display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; width: 100%; -ms-overflow-style: none; scrollbar-width: none; padding: 2rem 0;">
+            
+            <!-- PAGE 1 -->
+            <div class="slider-page grid projects-grid" style="width: 100%; flex-shrink: 0; padding: 0 2rem; scroll-snap-align: start;">
+                    <!-- Video 1 -->
+                    <a href="https://youtu.be/FiA1Md9JyHo" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/maharanas_thumbnail.jpg" alt="Maharana Trailer">
+                        </div>
+                        <div class="card-content">
+                            <h3>Maharana Trailer</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Video 2 -->
+                    <a href="https://youtu.be/cqdGAFjkeTM" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/wootz_steel_thumbnail.jpg" alt="Wootz Steel">
+                        </div>
+                        <div class="card-content">
+                            <h3>Wootz Steel</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Video 3 -->
+                    <a href="https://youtu.be/X7_M9-1aPCQ" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/rambhadracharya_thumbnail.jpg" alt="Rambhadracharya Maharaj">
+                        </div>
+                        <div class="card-content">
+                            <h3>Rambhadracharya Maharaj</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Video 4 -->
+                    <a href="https://youtu.be/vTUSNP8QNtM" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/calculus_thumbnail.jpg" alt="India Gave Calculus">
+                        </div>
+                        <div class="card-content">
+                            <h3>India Gave Calculus</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Video 5 -->
+                    <a href="https://youtu.be/5LPxGAzAoYM" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/homi_bhabha_thumbnail.jpg" alt="HOMI BHABHA">
+                        </div>
+                        <div class="card-content">
+                            <h3>HOMI BHABHA</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Video 6 -->
+                    <a href="https://youtu.be/T00gaJvpv5U" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/iskcon_thumbnail.jpg" alt="Iskcon">
+                        </div>
+                        <div class="card-content">
+                            <h3>Iskcon</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- PAGE 2 -->
+                <div class="slider-page grid projects-grid" style="width: 100%; flex-shrink: 0; padding: 0 2rem; scroll-snap-align: start;">
+                    <!-- Video 7 -->
+                    <a href="https://youtu.be/hOQdVUu74Fk" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/janeu_thumbnail.jpg" alt="Janeu Trailer | The Sacred Tread">
+                        </div>
+                        <div class="card-content">
+                            <h3>Janeu Trailer | The Sacred Tread</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Video 8 -->
+                    <a href="https://youtu.be/3R6461q3fNk" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/invasion_thumbnail.jpg" alt="Glimps to Invasion | Invasion on Bharat | Prachyam">
+                        </div>
+                        <div class="card-content">
+                            <h3>Glimps to Invasion | Invasion on Bharat | Prachyam</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Video 9 -->
+                    <a href="https://youtu.be/xIGcpU5g4SU" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/zudio_thumbnail.jpg" alt="Zudio Documentary | Short Form YouTube Video">
+                        </div>
+                        <div class="card-content">
+                            <h3>Zudio Documentary | Short Form YouTube Video</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Video 10 -->
+                    <a href="https://youtu.be/bMGWHaswWt4" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/corporate_edits_thumbnail.jpg" alt="Corporate Edits">
+                        </div>
+                        <div class="card-content">
+                            <h3>Corporate Edits</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Video 11 -->
+                    <a href="https://youtu.be/f8_OXAjQRdc" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/virat_jnana_thumbnail.jpg" alt="Virat Jnana">
+                        </div>
+                        <div class="card-content">
+                            <h3>Virat Jnana</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Video 12 -->
+                    <a href="https://youtu.be/C6G2q-vbJus" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/beephire_thumbnail.jpg" alt="BeepHire Concept Video">
+                        </div>
+                        <div class="card-content">
+                            <h3>BeepHire Concept Video</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+                </div>
+                
+            <!-- PAGE 3 -->
+            <div class="slider-page grid projects-grid" style="width: 100%; flex-shrink: 0; padding: 0 2rem; scroll-snap-align: start;">
+                    <!-- Video 13 -->
+                    <a href="https://youtu.be/lCVN9nztPG8" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/ait_concept_thumbnail_new.jpg" alt="AIT India Concept Trailer">
+                        </div>
+                        <div class="card-content">
+                            <h3>AIT India Concept Trailer</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 14 -->
+                    <a href="https://youtu.be/7hS6_M7nK0o" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/sambhaji_thumbnail.jpg" alt="Chhatrapati Sambhaji Maharaj | Motion Graphics">
+                        </div>
+                        <div class="card-content">
+                            <h3>Chhatrapati Sambhaji Maharaj | Motion Graphics</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 15 -->
+                    <a href="https://youtu.be/chSUONpGJJY" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="./assets/beep_brand_thumbnail.jpg" alt="Beep Brand Video | EventBeep and BeepHire">
+                        </div>
+                        <div class="card-content">
+                            <h3>Beep Brand Video | EventBeep and BeepHire</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 16 -->
+                    <a href="https://youtu.be/0RC1e3Z__Nw" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/0RC1e3Z__Nw/maxresdefault.jpg" alt="Shubman Gill - Can he become the Next KING?">
+                        </div>
+                        <div class="card-content">
+                            <h3>Shubman Gill - Can he become the Next KING?</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 17 -->
+                    <a href="https://youtu.be/HW-ZvWPjZxA" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/HW-ZvWPjZxA/maxresdefault.jpg" alt="Truth of Bhoota Kola in Kantara Explained">
+                        </div>
+                        <div class="card-content">
+                            <h3>Truth of Bhoota Kola in Kantara Explained</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 18 -->
+                    <a href="https://youtu.be/fcUU027Fvlo" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/fcUU027Fvlo/maxresdefault.jpg" alt="Dark Chapter of British Rule | Prachyam">
+                        </div>
+                        <div class="card-content">
+                            <h3>Dark Chapter of British Rule | Prachyam</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+            </div>
+                
+            <!-- PAGE 4 -->
+            <div class="slider-page grid projects-grid" style="width: 100%; flex-shrink: 0; padding: 0 2rem; scroll-snap-align: start;">
+                    <!-- Video 19 -->
+                    <a href="https://youtu.be/LMX1m3NAnlg" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/LMX1m3NAnlg/maxresdefault.jpg" alt="Exposed: Reality Behind Valentine&#39;s Day">
+                        </div>
+                        <div class="card-content">
+                            <h3>Exposed: Reality Behind Valentine&#39;s Day</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 20 -->
+                    <a href="https://youtu.be/ndBxmVM2KT4" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/ndBxmVM2KT4/maxresdefault.jpg" alt="History of Invasions on Bharat | Trailer">
+                        </div>
+                        <div class="card-content">
+                            <h3>History of Invasions on Bharat | Trailer</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 21 -->
+                    <a href="https://youtu.be/yT5qkwMuy7U" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/yT5qkwMuy7U/maxresdefault.jpg" alt="Babur Did Not Construct Babri Masjid? | Interview">
+                        </div>
+                        <div class="card-content">
+                            <h3>Babur Did Not Construct Babri Masjid? | Interview</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 22 -->
+                    <a href="https://youtu.be/WeOoxeupl8Y" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/WeOoxeupl8Y/maxresdefault.jpg" alt="Priyanka Chopra Exposed Bollywood | Joe Rogan">
+                        </div>
+                        <div class="card-content">
+                            <h3>Priyanka Chopra Exposed Bollywood | Joe Rogan</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 23 -->
+                    <a href="https://youtu.be/8xHvfvKPEtI" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/8xHvfvKPEtI/maxresdefault.jpg" alt="BeepHire - AI-Powered Recruitment Platform">
+                        </div>
+                        <div class="card-content">
+                            <h3>BeepHire - AI-Powered Recruitment Platform</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 24 -->
+                    <a href="https://youtu.be/Ho93fclgXb0" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/Ho93fclgXb0/maxresdefault.jpg" alt="Parallax Effect in After Effects | Tutorial">
+                        </div>
+                        <div class="card-content">
+                            <h3>Parallax Effect in After Effects | Tutorial</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+            </div>
+                
+            <!-- PAGE 5 -->
+            <div class="slider-page grid projects-grid" style="width: 100%; flex-shrink: 0; padding: 0 2rem; scroll-snap-align: start;">
+                    <!-- Video 25 -->
+                    <a href="https://youtu.be/HIb0hTiyJIs" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/HIb0hTiyJIs/maxresdefault.jpg" alt="Ayodhya Ram Mandir | Awadh Mein Ram Aaye Hain | Prachyam Video">
+                        </div>
+                        <div class="card-content">
+                            <h3>Ayodhya Ram Mandir | Awadh Mein Ram Aaye Hain | Prachyam Video</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 26 -->
+                    <a href="https://youtu.be/CYYp1CUdvjE" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/CYYp1CUdvjE/maxresdefault.jpg" alt="Official Trailer | Janeu | The Sacred Thread | Exploring Revered Rituals | Prachyam Originals">
+                        </div>
+                        <div class="card-content">
+                            <h3>Official Trailer | Janeu | The Sacred Thread | Exploring Revered Rituals | Prachyam Originals</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 27 -->
+                    <a href="https://youtu.be/CyNoiX3rA4w" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/CyNoiX3rA4w/maxresdefault.jpg" alt="Sounds Of Kashi | Pandit Kishan Ramdohkar | OfficialTrailer | Prachyam OTT">
+                        </div>
+                        <div class="card-content">
+                            <h3>Sounds Of Kashi | Pandit Kishan Ramdohkar | OfficialTrailer | Prachyam OTT</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 28 -->
+                    <a href="https://youtu.be/PuC1TeSYiIw" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/PuC1TeSYiIw/maxresdefault.jpg" alt="Official Trailer | Matsya Avtar | King Manu&#39;s Quest | Vishnu Avatar | Prachyam | Prachyam Kids">
+                        </div>
+                        <div class="card-content">
+                            <h3>Official Trailer | Matsya Avtar | King Manu&#39;s Quest | Vishnu Avatar | Prachyam | Prachyam Kids</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+
+                    <!-- Video 29 -->
+                    <a href="https://www.youtube.com/watch?v=KCrhP5lXaQs" target="_blank" class="card video-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://img.youtube.com/vi/KCrhP5lXaQs/maxresdefault.jpg" alt="The Revenge Story of Amit Shah | How Shah Destroyed Congress State by State?">
+                        </div>
+                        <div class="card-content">
+                            <h3>The Revenge Story of Amit Shah | How Shah Destroyed Congress State by State?</h3>
+                            <p class="subtitle">AIT INDIA</p>
+                        </div>
+                    </a>
+            </div>
+                
+        </div>
+        
+        <!-- Pagination Controls -->
+        <div class="pagination-controls pill-pagination">
+            <button class="pill-page-btn active-page-btn page-num" data-page="0">1</button>
+            <button class="pill-page-btn page-num" data-page="1">2</button>
+            <button class="pill-page-btn page-num" data-page="2">3</button>
+            <button class="pill-page-btn page-num" data-page="3">4</button>
+            <button class="pill-page-btn page-num" data-page="4">5</button>
+        </div>
+    </section>
+
+    <style>
+        .slider-container::-webkit-scrollbar {
+            display: none;
+        }
+        .pagination-controls .btn.active-page-btn {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            color: #fff;
+            box-shadow: 0 12px 24px rgba(255, 95, 0, 0.4);
+            transform: translateY(-2px);
+        }
+    </style>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('recommendations-container');
+            const pageButtons = document.querySelectorAll('.pagination-controls .page-num');
+            let activePage = 0;
+            const maxPage = 4;
+            
+            // Handle page num click
+            pageButtons.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    const page = parseInt(e.currentTarget.getAttribute('data-page'));
+                    scrollToPage(page);
+                });
+            });
+
+            function scrollToPage(page) {
+                container.scrollTo({
+                    left: page * container.clientWidth,
+                    behavior: 'smooth'
+                });
+            }
+
+            function updatePaginationVisibility() {
+                let start = Math.max(0, activePage - 1);
+                let end = Math.min(maxPage, activePage + 1);
+                
+                if (activePage === 0 && maxPage >= 2) {
+                    end = 2;
+                }
+                if (activePage === maxPage && maxPage >= 2) {
+                    start = maxPage - 2;
+                }
+                
+                pageButtons.forEach((b, i) => {
+                    b.classList.remove('active-page-btn');
+                    if (i >= start && i <= end) {
+                        b.style.display = 'flex';
+                    } else {
+                        b.style.display = 'none';
+                    }
+                });
+                
+                if (pageButtons[activePage]) {
+                    pageButtons[activePage].classList.add('active-page-btn');
+                }
+            }
+            
+            // Initialize visibility
+            updatePaginationVisibility();
+
+            // Handle manual scroll to update buttons
+            container.addEventListener('scroll', () => {
+                const scrollLeft = container.scrollLeft;
+                const clientWidth = container.clientWidth;
+                if (clientWidth > 0) {
+                    activePage = Math.round(scrollLeft / clientWidth);
+                    updatePaginationVisibility();
+                }
+            });
+        });
+    </script>
+
+    <footer>
+        <div class="footer-logo">AIT India</div>
+        <ul class="footer-links" style="list-style: none; padding: 0; margin: 0;">
+            <li>
+                <a href="https://www.youtube.com/@Artist_in_transit_india" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: inherit;">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.377.55a3.016 3.016 0 0 0-2.122 2.136C0 8.059 0 12 0 12s0 3.941.501 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.55 9.377.55 9.377.55s7.505 0 9.377-.55a3.016 3.016 0 0 0 2.122-2.136C24 15.941 24 12 24 12s0-3.941-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                    </svg>
+                    YouTube
+                </a>
+            </li>
+        </ul>
+        <div class="footer-copyright">© 2026 AIT India. All rights reserved.</div>
+    </footer>
+</body>
+</html>
